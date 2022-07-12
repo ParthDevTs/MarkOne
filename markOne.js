@@ -10,9 +10,13 @@ var ans2 = "sundara";
 var ans3 = "panda";
 
 console.log("_____Lets quiz you on How well you know parth!______");
+console.log("");
+
 var username = readlineSync.question("First, Tell me your name: ");
 
 console.log("Hello, ", username);
+
+console.log("");
 
 var userAns = readlineSync.question(question1);
 if (userAns.toLowerCase() === ans1.toLowerCase()) {
