@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "node-fetch": "^3.2.7",
     "readline-sync": "^1.4.10"
   },
   "name": "neogcamp",
@@ -19,5 +20,5 @@
     "url": "https://github.com/ParthDevTs/MarkOne/issues"
   },
   "homepage": "https://github.com/ParthDevTs/MarkOne#readme",
-  "description": ""
+  "description": "First Project for NeoG Camp"
 }
