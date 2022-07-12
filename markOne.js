@@ -15,7 +15,7 @@ var username = readlineSync.question("First, Tell me your name: ");
 console.log("Hello, ", username);
 
 var userAns = readlineSync.question(question1);
-if (userAns === ans1.toLowerCase()) {
+if (userAns.toLowerCase() === ans1.toLowerCase()) {
   console.log("Correct Answer, You get 10 points!!");
   score = score + 10;
   console.log("---------------------------------------------");
@@ -26,7 +26,7 @@ if (userAns === ans1.toLowerCase()) {
 }
 
 var userAns = readlineSync.question(question2);
-if (userAns === ans2.toLowerCase()) {
+if (userAns.toLowerCase() === ans2.toLowerCase()) {
   console.log("Correct Answer, You get 10 points!!");
   score = score + 10;
   console.log("---------------------------------------------");
@@ -37,7 +37,7 @@ if (userAns === ans2.toLowerCase()) {
 }
 
 var userAns = readlineSync.question(question3);
-if (userAns === ans3.toLowerCase()) {
+if (userAns.toLowerCase() === ans3.toLowerCase()) {
   console.log("Correct Answer, You get 10 points!!");
   score = score + 10;
   console.log("---------------------------------------------");
