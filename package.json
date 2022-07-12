@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "readline-sync": "^1.4.10"
-  }
+  },
+  "name": "neogcamp",
+  "version": "1.0.0",
+  "main": "markOne.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParthDevTs/MarkOne.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParthDevTs/MarkOne/issues"
+  },
+  "homepage": "https://github.com/ParthDevTs/MarkOne#readme",
+  "description": ""
 }
